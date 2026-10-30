@@ -1,12 +1,17 @@
 {
     "name": "hp-point",
     "private": true,
-    "workspaces": ["client", "api", "shared"],
+    "workspaces": [
+        "client",
+        "api",
+        "shared"
+    ],
     "scripts": {
-      "dev:client": "npm run dev -w client",
-      "dev:api": "npm run dev -w api",
-      "build:client": "npm run build -w client",
-      "build:api": "npm run build -w api",
-      "lint": "npm run lint --workspaces --if-present"
+        "dev:client": "npm run dev -w client",
+        "dev:api": "npm run dev -w api",
+        "build:client": "npm run build -w client",
+        "build:api": "npm run build -w api",
+        "lint": "npm run lint --workspaces --if-present",
+        "typecheck": "npm run typecheck --workspaces --if-present"
     }
-  }
+}
