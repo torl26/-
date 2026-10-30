@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">hp-point</string>
+    <string name="title_activity_main">hp-point</string>
+    <string name="package_name">jp.ac.kurume.hppoint</string>
+    <string name="custom_url_scheme">jp.ac.kurume.hppoint</string>
+</resources>
